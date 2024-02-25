@@ -4,6 +4,11 @@
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
 :root{
      /* Cores Primárias */
     --cor-p-Nutmeg: hsl(14, 45%, 36%);
@@ -32,6 +37,7 @@ section{
     margin-top: 80px;
     width:50%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--cor-sWhite); 
     border-radius: 30px; 
@@ -41,18 +47,44 @@ section{
     width: 90%;
     padding: 25px;
     border-radius: 50px; 
-   margin: auto;
+    margin: auto;
 }
 
 .titulo{
-    font-family: var(--fonte01);
     font-weight: 400;
     font-family: "Young Serif", serif;
     color: var(--cor-sDarkCharcoal);
     font-size: 50px;
     text-align: left;
-    margin-left: 50px;
-    
+    margin-left: 50px; 
+  
+}
 
-   
+.subtitulo{
+    font-family: "Outfit", sans-serif;
+    color: var(--cor-sWengeBrown);
+    width: 90%;
+    font-size: 18px;
+    text-align: left;
+    margin:10px 30px 30px 50px;
+}
+
+.subtitulo2{
+    margin-left: 60px; 
+    color: var(--cor-pDarkRaspberry);
+}
+
+#preparation{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--cor-sRoseWhite);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin:10px 30px 30px 50px;
+    border-radius: 10px; 
+    color: var(--cor-sWengeBrown);
+    
 }
