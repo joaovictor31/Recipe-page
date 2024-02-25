@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
 
 :root{
      /* Cores Primárias */
@@ -13,8 +16,43 @@
     --cor-sLightGrey: hsl(30, 18%, 87%);
     --cor-sWengeBrown: hsl(30, 10%, 34%);
     --cor-sDarkCharcoal: hsl(24, 5%, 18%);
+    
+}
 
-    /* Fontes */
-    --fonte01: font-family: "Young Serif", serif;
-    --fonte02: font-family: "Outfit", sans-serif;
+body{
+    background-color: var(--cor-sEggshell);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#principal{
+    margin-top: 80px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-sWhite); 
+    border-radius: 30px; 
+}
+
+.imagem{
+    width: 90%;
+    padding: 25px;
+    border-radius: 50px; 
+   margin: auto;
+}
+
+.titulo{
+    font-family: var(--fonte01);
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color: var(--cor-sDarkCharcoal);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 50px;
+    
+
+   
 }
