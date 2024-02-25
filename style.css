@@ -92,3 +92,45 @@ section{
 ul li {
     padding-left: 20px;
 }
+
+ol li {
+    padding-left: 20px;
+}
+
+.titulo02{
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color: var(--cor-p-Nutmeg);
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px; 
+}
+
+#ingredientes{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--cor-sWengeBrown);
+}
+
+#ingredientes ul li{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 90%;
+}
+
+#instrucoes{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--cor-sWengeBrown);
+}
+
+#instrucoes li {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
